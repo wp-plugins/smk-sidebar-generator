@@ -28,6 +28,18 @@ More info here: http://codex.wordpress.org/Managing_Plugins#Installing_Plugins
 if( class_exists('SMK_Sidebar_Generator') ) {
     $the_sidebars = SMK_Sidebar_Generator::get_all_sidebars();
 }
+else{
+	global $wp_registered_sidebars;
+	$all_sidebars = array();
+	if ( $wp_registered_sidebars && ! is_wp_error( $wp_registered_sidebars ) ) {
+		
+		foreach ( $wp_registered_sidebars as $sidebar ) {
+			$all_sidebars[ $sidebar['id'] ] = $sidebar['name'];
+		}
+		
+	}
+	$the_sidebars = $all_sidebars;
+}
 </pre>
 *result of the above code(example)*
 <pre>
