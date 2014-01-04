@@ -1,4 +1,4 @@
-=== Sidebars Generator ===
+=== SMK Sidebar Generator ===
 Contributors: _smartik_
 Tags: sidebar, widget, generator, custom, unlimited
 Requires at least: 3.2
