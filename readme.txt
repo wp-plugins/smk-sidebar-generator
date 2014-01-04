@@ -22,8 +22,6 @@ This plugin generates as many sidebars as you need. Then allows you to place the
 Like any other Wordpress plugin. <br />
 Drop `smk-sidebar-generator` to `wp-content/plugins/`.<br />
 More info here: http://codex.wordpress.org/Managing_Plugins#Installing_Plugins
- 
-<img src="http://i.imgur.com/hSOdoGc.jpg" />
 
 **Get all sidebars in an array**
 <pre>
@@ -44,11 +42,11 @@ array(
 
 *Example with php `foreach`:*
 <pre>
-echo '<select>';
+echo '&lt;select>';
   foreach($the_sidebars as $key => $value){
-    echo '<option value="'. $key .'">'. $value .'</option>';
+    echo '&lt;option value="'. $key .'">'. $value .'&lt;/option>';
   }
-echo '</select>';
+echo '&lt;/select>';
 </pre>
 
 
@@ -61,7 +59,7 @@ if(function_exists('smk_sidebar'){
 **Display a sidebar using wp native function:**
 <pre>
 if(function_exists('dynamic_sidebar') && dynamic_sidebar('sidebarID')) : 
-				endif;
+	endif;
 </pre>
 
 **Display a sidebar using built-in shortcode:**
