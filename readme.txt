@@ -24,23 +24,25 @@ Drop `smk-sidebar-generator` to `wp-content/plugins/`.<br />
 More info here: http://codex.wordpress.org/Managing_Plugins#Installing_Plugins
 
 **Get all sidebars in an array**
+Add this function in your theme `functions.php`:
 <pre>
-if( class_exists('SMK_Sidebar_Generator') ) {
-    $the_sidebars = SMK_Sidebar_Generator::get_all_sidebars();
-}
-else{
-	global $wp_registered_sidebars;
-	$all_sidebars = array();
-	if ( $wp_registered_sidebars && ! is_wp_error( $wp_registered_sidebars ) ) {
-		
-		foreach ( $wp_registered_sidebars as $sidebar ) {
-			$all_sidebars[ $sidebar['id'] ] = $sidebar['name'];
+if(! function_exists('smk_get_all_sidebars') ) {
+	function smk_get_all_sidebars(){
+		global $wp_registered_sidebars;
+		$all_sidebars = array();
+		if ( $wp_registered_sidebars && ! is_wp_error( $wp_registered_sidebars ) ) {
+			
+			foreach ( $wp_registered_sidebars as $sidebar ) {
+				$all_sidebars[ $sidebar['id'] ] = $sidebar['name'];
+			}
+			
 		}
-		
+		return $all_sidebars;
 	}
-	$the_sidebars = $all_sidebars;
 }
 </pre>
+Now using this function you can get all sidebars in an array(`[id] => [name]`):
+<pre>print_r( smk_get_all_sidebars() )</pre>
 *result of the above code(example)*
 <pre>
 array(
