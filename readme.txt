@@ -23,7 +23,7 @@ Like any other Wordpress plugin. <br />
 Drop `smk-sidebar-generator` to `wp-content/plugins/`.<br />
 More info here: http://codex.wordpress.org/Managing_Plugins#Installing_Plugins
 
-**Get all sidebars in an array**
+**Get all sidebars in an array: **
 Add this function in your theme `functions.php`:
 <pre>
 if(! function_exists('smk_get_all_sidebars') ) {
@@ -52,7 +52,7 @@ array(
   "smk_sbg_7" => "Sidebar Name Something"
 )
 </pre>
-*Now you can output this anywhere in page/post metaboxes, theme options, etc.*
+*You can output this anywhere in page/post metaboxes, theme options, etc.*
 
 *Example with php `foreach`:*
 <pre>
