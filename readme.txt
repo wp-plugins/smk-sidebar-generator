@@ -29,7 +29,7 @@ Like any other Wordpress plugin. <br />
 Drop `smk-sidebar-generator` to `wp-content/plugins/`.<br />
 More info here: http://codex.wordpress.org/Managing_Plugins#Installing_Plugins
 
-**Get all sidebars in an array: **
+**Get all sidebars in an array:**
 Add this function in your theme `functions.php`:
 <pre>
 if(! function_exists('smk_get_all_sidebars') ) {
