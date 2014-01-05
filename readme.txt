@@ -17,6 +17,12 @@ This plugin generates as many sidebars as you need. Then allows you to place the
 * License : GPLv2
 * Project page and usage instructions: https://github.com/Smartik89/Wordpress-Sidebar-Generator
 
+####Features:
+* Full AJAX (add, remove, save, validation, etc.)
+* Drag to sort sidebar position.
+* Name validation(characters and duplicate).
+* Display sidebars using WP built-in function, a custom function or a shortcode.
+* Get registered sidebars anywhere you need them.(theme options, metaboxes, widgets, etc.)
 
 ####How to install this plugin?
 Like any other Wordpress plugin. <br />
