@@ -12,6 +12,8 @@ This plugin generates as many sidebars as you need. Then allows you to place the
 == Description ==
 This plugin generates as many sidebars as you need. Then allows you to place them on any page you wish.
 
+**Demo video:** http://youtu.be/fluNdMnSCKA
+
 * Author : Smartik - http://smartik.ws/
 * License : GPLv2
 * Project page and usage instructions: https://github.com/Smartik89/Wordpress-Sidebar-Generator
