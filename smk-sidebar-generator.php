@@ -308,6 +308,21 @@ function smk_sidebar($id){
 	return true;
 }
 
+if(! function_exists('smk_get_all_sidebars') ) {
+    function smk_get_all_sidebars(){
+        global $wp_registered_sidebars;
+        $all_sidebars = array();
+        if ( $wp_registered_sidebars && ! is_wp_error( $wp_registered_sidebars ) ) {
+            
+            foreach ( $wp_registered_sidebars as $sidebar ) {
+                $all_sidebars[ $sidebar['id'] ] = $sidebar['name'];
+            }
+            
+        }
+        return $all_sidebars;
+    }
+}
+
 /*
 ----------------------------------------------------------------------
 Shortcode

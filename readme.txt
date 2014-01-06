@@ -3,7 +3,7 @@ Contributors: _smartik_
 Tags: sidebar, widget, generator, custom, unlimited
 Requires at least: 3.2
 Tested up to: 3.8
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,6 @@ This plugin generates as many sidebars as you need. Then allows you to place the
 == Description ==
 This plugin generates as many sidebars as you need. Then allows you to place them on any page you wish.
 
-* Current version : 2.0
 * Author : Smartik - http://smartik.ws/
 * License : GPLv2
 * Project page and usage instructions: https://github.com/Smartik89/Wordpress-Sidebar-Generator
@@ -102,3 +101,11 @@ https://github.com/Smartik89/Wordpress-Sidebar-Generator/releases
 
 == Screenshots ==
 1. Admin panel
+
+
+== Changelog ==
+= 2.1 =
+* `smk_get_all_sidebars()` function is included in plugin. Anyways, you must include it in your theme `functions.php`, because if you'll deactivate the plugin it will return a fatal error.
+
+= 2.0 = 
+* Initial release
