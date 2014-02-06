@@ -3,7 +3,7 @@ Contributors: _smartik_
 Tags: sidebar, widget, generator, custom, unlimited
 Requires at least: 3.2
 Tested up to: 3.8
-Stable tag: 2.1.1
+Stable tag: 2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -106,6 +106,11 @@ https://github.com/Smartik89/Wordpress-Sidebar-Generator/releases
 
 
 == Changelog ==
+= 2.2 =
+* Confirm sidebar remove.
+* Bug fix: Sidebars could not be added when all previous sidebars were removed.
+* Bug fix: Fixed ajax name validation.
+
 = 2.1.1 =
 * enqueue styles and scripts only on plugin page, not on all WP dashboard pages.
 * `admin_enqueue_scripts` make use of `SMK_SBG_URI` constant.
