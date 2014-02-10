@@ -7,10 +7,10 @@ Stable tag: 2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin generates as many sidebars as you need. Then allows you to place them on any page you wish.
+This plugin generates as many sidebars as you need. Then allows you to place them on any page you wish using built-in shortcode or more advanved by modifying theme files.
 
 == Description ==
-This plugin generates as many sidebars as you need. Then allows you to place them on any page you wish.
+This plugin generates as many sidebars as you need. Then allows you to place them on any page you wish using built-in shortcode or more advanved by modifying theme files.
 
 **Demo video:** http://youtu.be/fluNdMnSCKA
 
