@@ -14,7 +14,9 @@ This plugin generates as many sidebars as you need. Then allows you to place the
 
 **Important info: I'm working for version 3.0 which will support custom sidebars without touching a single line of code. If you want to get acces to first beta, click the following link, subscribe and I will send it to you when it's ready:** http://eepurl.com/QeMOf
 
-**Demo video:** https://www.youtube.com/watch?v=fluNdMnSCKA
+**Demo video:** 
+
+https://www.youtube.com/watch?v=fluNdMnSCKA
 
 * Author : Smartik - http://smartik.ws/
 * License : GPLv2
